@@ -10,27 +10,30 @@
     <meta property="og:title" content="ウエサカ ポートフォリオ" />
     <meta
       property="og:url"
-      content="https://u-t-kuroitigo.github.io/portfolio/cheifoon_v2.html"
+      content="https://u-t-kuroitigo.github.io/portfolio/works/cheifoon_slim.html"
     />
     <meta
       property="og:description"
       content="ウエサカのポートフォリオサイトです。"
     />
-    <meta property="og:image" content="img/ogp.png" />
+    <meta property="og:image" content="../imgs/ogp.png" />
     <meta name="description" content="ウエサカのポートフォリオサイトです。" />
     <title>ウエサカ ポートフォリオ</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    <link href="../css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link
+      href="../css/style.css"
+      media="all"
       rel="stylesheet"
+      type="text/css"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined"
+      href="../css/slider.css"
+      media="all"
       rel="stylesheet"
-    /> -->
-    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="img/favicon.ico" />
+      type="text/css"
+    />
+    <link rel="shortcut icon" href="../imgs/favicon.ico" />
     <!-- <link rel="”canonical”" href="”URLが入る”" /> -->
   </head>
 
@@ -40,14 +43,14 @@
       <header class="header">
         <div class="container">
           <h1 class="header-logo">
-            <a href=".">PORTFOLIO</a>
+            <a href="../">PORTFOLIO</a>
           </h1>
           <nav class="gnav">
             <ul class="gnav-list">
-              <li class="gnav-item"><a href=".#works">WORKS</a></li>
-              <li class="gnav-item"><a href="./#skill">SKILL</a></li>
-              <li class="gnav-item"><a href="./#about">ABOUT</a></li>
-              <li class="gnav-item"><a href="./#contact">CONTACT</a></li>
+              <li class="gnav-item"><a href="../#works">WORKS</a></li>
+              <li class="gnav-item"><a href="../#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="../#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="../#contact">CONTACT</a></li>
             </ul>
           </nav>
         </div>
@@ -59,16 +62,44 @@
           <div class="article-container">
             <h2 class="article-title">Cheifoon slim</h2>
             <div class="article-body">
-              <p>
-                <img src="img/works-sample.jpg" alt="" />
-              </p>
+              <div class="slider">
+                <div class="slides">
+                  <img
+                    src="../imgs/cheifoon_slim/Cheifoon_slim_img_title.jpg"
+                    alt="Cheifoon_slim_img_title"
+                  />
+                  <img
+                    src="../imgs/cheifoon_slim/Cheifoon_slim_img_front.jpg"
+                    alt="Cheifoon_slim_img_front"
+                  />
+                  <img
+                    src="../imgs/cheifoon_slim/Cheifoon_slim_img_left.jpg"
+                    alt="Cheifoon_slim_img_left"
+                  />
+                  <img
+                    src="../imgs/cheifoon_slim/Cheifoon_slim_img_right.jpg"
+                    alt="Cheifoon_slim_img_right"
+                  />
+                  <img
+                    src="../imgs/cheifoon_slim/Cheifoon_logo.jpg"
+                    alt="Cheifoon_logo"
+                  />
+                </div>
+                <div class="navigation">
+                  <button class="prev" onclick="prevSlide()">❮</button>
+                  <button class="next" onclick="nextSlide()">❯</button>
+                </div>
+              </div>
               <p>
                 料理を簡単にできるように、調味料を正確な分量出してくれるお助けツール。<br />
                 Cheifoon 小型バージョン。
               </p>
               <h3>URL</h3>
               <p>
-                <a href="." target="_blank" rel="noopener"
+                <a
+                  href="https://protopedia.net/prototype/5058"
+                  target="_blank"
+                  rel="noopener"
                   >https://protopedia.net/prototype/5058</a
                 >
               </p>
@@ -86,20 +117,14 @@
               <p>ダイアル操作、描画、マイコン制御をArduinoにて実装。</p>
               <h3>ターゲット</h3>
               <p>調味料を量るのが面倒くさい人</p>
-              <h3>デザインについて</h3>
+              <h3>備考</h3>
               <p>
-                テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。<br />テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
-              </p>
-              <p>
-                テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
-              </p>
-              <h3>コーディングについて</h3>
-              <p>
-                テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                Cheifoon seriesの作品で、Cheifoonをよりコンパクトにしたもの。<br />
+                描画及び操作にM5Dialを使用し、センサー機能を非搭載にすることで小型化した。
               </p>
             </div>
             <div class="home-link">
-              <a href="./#works">Works一覧へ</a>
+              <a href="../#works">Works一覧へ</a>
             </div>
           </div>
         </article>
@@ -116,6 +141,7 @@
       <!-- /footer -->
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/slider.js"></script>
   </body>
 </html>
