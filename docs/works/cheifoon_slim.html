@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ウエサカ ポートフォリオ" />
+    <meta
+      property="og:url"
+      content="https://u-t-kuroitigo.github.io/portfolio/works/cheifoon_slim.html"
+    />
+    <meta
+      property="og:description"
+      content="ウエサカのポートフォリオサイトです。"
+    />
+    <meta property="og:image" content="../imgs/ogp.png" />
+    <meta name="description" content="ウエサカのポートフォリオサイトです。" />
+    <title>ウエサカ ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="../css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link
+      href="../css/style.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="../css/slider.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="shortcut icon" href="../imgs/favicon.ico" />
+    <!-- <link rel="”canonical”" href="”URLが入る”" /> -->
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href="../">PORTFOLIO</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href="../#works">WORKS</a></li>
+              <li class="gnav-item"><a href="../#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="../#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="../#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /header -->
+
+      <main class="content">
+        <article class="article">
+          <div class="article-container">
+            <h2 class="article-title">Cheifoon slim</h2>
+            <div class="article-body">
+              <div class="slider">
+                <div class="slides">
+                  <img
+                    src="../imgs/cheifoon_slim/Cheifoon_slim_img_title.jpg"
+                    alt="Cheifoon_slim_img_title"
+                  />
+                  <img
+                    src="../imgs/cheifoon_slim/Cheifoon_slim_img_front.jpg"
+                    alt="Cheifoon_slim_img_front"
+                  />
+                  <img
+                    src="../imgs/cheifoon_slim/Cheifoon_slim_img_left.jpg"
+                    alt="Cheifoon_slim_img_left"
+                  />
+                  <img
+                    src="../imgs/cheifoon_slim/Cheifoon_slim_img_right.jpg"
+                    alt="Cheifoon_slim_img_right"
+                  />
+                  <img
+                    src="../imgs/cheifoon_slim/Cheifoon_logo.jpg"
+                    alt="Cheifoon_logo"
+                  />
+                </div>
+                <div class="navigation">
+                  <button class="prev" onclick="prevSlide()">❮</button>
+                  <button class="next" onclick="nextSlide()">❯</button>
+                </div>
+              </div>
+              <p>
+                料理を簡単にできるように、調味料を正確な分量出してくれるお助けツール。<br />
+                Cheifoon 小型バージョン。
+              </p>
+              <h3>URL</h3>
+              <p>
+                <a
+                  href="https://protopedia.net/prototype/5058"
+                  target="_blank"
+                  rel="noopener"
+                  >https://protopedia.net/prototype/5058</a
+                >
+              </p>
+              <h3>システム概要</h3>
+              <p>
+                料理をする際、レシピには大さじ1や小さじ2などの分量が載っていますが、正確に量って入れるのは少し面倒くさいですよね。<br />
+                そんな時、これを使えば必要な分だけを正確に出してくれます！
+              </p>
+              <h3>キャッチコピー</h3>
+              <p>
+                簡単操作でぴったり出せる！ <br class="sp-only" />
+                あなたの家の小さな料理長！
+              </p>
+              <h3>役割</h3>
+              <p>ダイアル操作、描画、マイコン制御をArduinoにて実装。</p>
+              <h3>ターゲット</h3>
+              <p>調味料を量るのが面倒くさい人</p>
+              <h3>備考</h3>
+              <p>
+                Cheifoon seriesの作品で、Cheifoonをよりコンパクトにしたもの。<br />
+                描画及び操作にM5Dialを使用し、センサー機能を非搭載にすることで小型化した。
+              </p>
+            </div>
+            <div class="home-link">
+              <a href="../#works">Works一覧へ</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">expand_less</span>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">&copy;TARO YAMADA</div>
+      </footer>
+      <!-- /footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/slider.js"></script>
+  </body>
+</html>
