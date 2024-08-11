@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ウエサカ ポートフォリオ" />
+    <meta
+      property="og:url"
+      content="https://u-t-kuroitigo.github.io/portfolio/works/cheifoon_slim.html"
+    />
+    <meta
+      property="og:description"
+      content="ウエサカのポートフォリオサイトです。"
+    />
+    <meta property="og:image" content="../imgs/ogp.png" />
+    <meta name="description" content="ウエサカのポートフォリオサイトです。" />
+    <title>ウエサカ ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="../css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link
+      href="../css/style.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="../css/slider.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="shortcut icon" href="../imgs/favicon.ico" />
+    <link
+      rel="canonical"
+      href="https://u-t-kuroitigo.github.io/portfolio/works/movement_arm.html"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href="../">PORTFOLIO</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href="../#works">WORKS</a></li>
+              <li class="gnav-item"><a href="../#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="../#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="../#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /header -->
+
+      <main class="content">
+        <article class="article">
+          <div class="article-container">
+            <h2 class="article-title">ムーブメントアーム</h2>
+            <div class="article-body">
+              <div class="slider">
+                <div class="slides">
+                  <img
+                    src="../imgs/movement_arm/movement_arm_img_title.png"
+                    alt="movement_arm_img_title"
+                  />
+                  <img
+                    src="../imgs/movement_arm/movement_arm_img_1.jpg"
+                    alt="movement_arm_img_1"
+                  />
+                  <img
+                    src="../imgs/movement_arm/movement_arm_img_2.jpg"
+                    alt="movement_arm_img_2"
+                  />
+                </div>
+                <div class="navigation">
+                  <button class="prev" onclick="prevSlide()">❮</button>
+                  <button class="next" onclick="nextSlide()">❯</button>
+                </div>
+              </div>
+              <p style="font-weight: bold">
+                ムーブメントアーム・・・<br class="sp-only" />
+                それは新たなプレゼンテーションのパートナー
+              </p>
+              <h3>URL</h3>
+              <p>
+                <a
+                  href="https://protopedia.net/prototype/5153"
+                  target="_blank"
+                  rel="noopener"
+                  >https://protopedia.net/prototype/5153</a
+                >
+                <br />
+                <a
+                  href="https://x.com/geek_pjt/status/1652213946403930115?s=20"
+                  target="_blank"
+                  rel="noopener"
+                  >https://x.com/geek_pjt/status/1652213946403930115?s=20</a
+                >
+                <br />
+                <a
+                  href="https://x.com/geek_pjt/status/1652261903144722432"
+                  target="_blank"
+                  rel="noopener"
+                  >https://x.com/geek_pjt/status/1652261903144722432</a
+                >
+              </p>
+              <h3>システム概要</h3>
+              <p>
+                「プレゼンテーションをよりスタイリッシュに」行うための手袋型ツール。<br />
+                装着して腕を動かすことで内蔵された加速度センサが動作を検知。PCと通信することでプレゼン資料を操作するもの。
+              </p>
+              <h3>機能概要</h3>
+              <p>
+                ムーブメントアームの基本の機能としては<br />
+                ・ ページ送り : <br class="sp-only" />
+                m5stickで座標を取りそれが右に動くか？左に動くかで進むもどるが決まる。<br />
+                感圧センサーを押しているときしかその機能は出てこないので誤作動はしない。<br />
+                ・レーザーポインター : <br class="sp-only" />
+                ポインターが人差し指の付け根辺りについていて、指を指すポーズをすることであたかも指先からビームが出てくるようにみせる事ができる。<br
+                  class="sp-only"
+                />これも感圧センサーで作動する。<br />
+                ・タイマー表示 : <br class="sp-only" />
+                m5stickのボタンを押すことでタイマーが開始される。
+              </p>
+              <h3>キャッチコピー</h3>
+              <p>プレゼンテーションをよりスタイリッシュに</p>
+              <h3>役割</h3>
+              <p>
+                Windowsへの入力処理、M5StickとWindows間のBLE通信のwindows側を担当し、C#を用いて実装。
+              </p>
+              <h3>ターゲット</h3>
+              <p>現状のプレゼンテーションのやり方では満足できない人。</p>
+              <h3>受賞</h3>
+              <p>
+                2023年4月29日(土) <br />
+                技育CAMPキャラバンハッカソン@京都 : Supership賞受賞
+              </p>
+            </div>
+            <div class="home-link">
+              <a href="../#works">Works一覧へ</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">トップへ戻る</span>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">&copy;u-t-kuroitigo</div>
+      </footer>
+      <!-- /footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/slider.js"></script>
+  </body>
+</html>

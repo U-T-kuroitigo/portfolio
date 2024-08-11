@@ -3,7 +3,6 @@ let currentSlide = 0;
 function showSlide(index) {
   const slides = document.querySelector(".slides");
   const imageSize = slides.clientWidth;
-  console.log(imageSize);
   const totalSlides = document.querySelectorAll(".slides img").length;
   if (index >= totalSlides) {
     currentSlide = 0;
