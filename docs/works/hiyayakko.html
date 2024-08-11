@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ウエサカ ポートフォリオ" />
+    <meta
+      property="og:url"
+      content="https://u-t-kuroitigo.github.io/portfolio/works/hiyayakko.html"
+    />
+    <meta
+      property="og:description"
+      content="ウエサカのポートフォリオサイトです。"
+    />
+    <meta property="og:image" content="../imgs/ogp.png" />
+    <meta name="description" content="ウエサカのポートフォリオサイトです。" />
+    <title>ウエサカ ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="../css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link
+      href="../css/style.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="../css/slider.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="shortcut icon" href="../imgs/favicon.ico" />
+    <link
+      rel="canonical"
+      href="https://u-t-kuroitigo.github.io/portfolio/works/hiyayakko.html"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href="../">PORTFOLIO</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href="../#works">WORKS</a></li>
+              <li class="gnav-item"><a href="../#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="../#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="../#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /header -->
+
+      <main class="content">
+        <article class="article">
+          <div class="article-container">
+            <h2 class="article-title">ひややっ庫</h2>
+            <div class="article-body">
+              <div class="slider">
+                <div class="slides">
+                  <img
+                    src="../imgs/hiyayakko/hiyayakko_img_title.png"
+                    alt="hiyayakko_img_title"
+                  />
+                  <img
+                    src="../imgs/hiyayakko/hiyayakko_img_login.png"
+                    alt="hiyayakko_img_login"
+                  />
+                  <img
+                    src="../imgs/hiyayakko/hiyayakko_img_signup.png"
+                    alt="hiyayakko_img_signup"
+                  />
+                  <img
+                    src="../imgs/hiyayakko/hiyayakko_img_memo.png"
+                    alt="hiyayakko_img_memo"
+                  />
+                  <img
+                    src="../imgs/hiyayakko/hiyayakko_img_profile.png"
+                    alt="hiyayakko_img_profile"
+                  />
+                </div>
+                <div class="navigation">
+                  <button class="prev" onclick="prevSlide()">❮</button>
+                  <button class="next" onclick="nextSlide()">❯</button>
+                </div>
+              </div>
+              <p>
+                冷蔵庫の中身をスマホ一つで管理するためのアプリ。<br />
+                食品の写真と詳細情報を管理する。未完成品。
+              </p>
+              <h3>URL</h3>
+              <p>
+                <a
+                  href="https://github.com/white160114/Hiyayakko_prototype.git"
+                  target="_blank"
+                  rel="noopener"
+                  >https://github.com/white160114/Hiyayakko_prototype.git</a
+                >
+                <br />
+                <a
+                  href="https://drive.google.com/file/d/18kLCgmDo5JK7cbQ_j6fPGJB2Lk5OC02X/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                  >https://drive.google.com/file/d/18kLCgmDo5JK7cbQ_j6fPGJB2Lk5OC02X/view?usp=sharing</a
+                >
+              </p>
+              <h3>システム概要</h3>
+              <p>
+                家庭からの食品ロス量を減らすことを目的としたスマホアプリ。<br />
+                食品の写真と詳細情報を管理する。
+              </p>
+              <h3>キャッチコピー</h3>
+              <p>
+                冷蔵庫の食べ物捨ててない？<br />
+                冷蔵庫の中身を写真で管理するスマホアプリ
+              </p>
+              <h3>役割</h3>
+              <p>
+                プロジェクトマネージャー<br />
+                ・担当箇所の割り振り<br />
+                ・問題点の指摘、解決<br />
+                ・Git管理<br />
+                ・企画、システムの考案<br />
+                ・進捗管理<br />
+                ・OpenAI APIの技術検証<br />
+                などを行った。
+              </p>
+              <h3>ターゲット</h3>
+              <p>冷蔵庫の中の食材を賞味期限切れなどで廃棄してしまう人。</p>
+            </div>
+            <div class="home-link">
+              <a href="../#works">Works一覧へ</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">トップへ戻る</span>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">&copy;u-t-kuroitigo</div>
+      </footer>
+      <!-- /footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/slider.js"></script>
+  </body>
+</html>
