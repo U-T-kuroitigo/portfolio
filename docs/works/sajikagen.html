@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ウエサカ ポートフォリオ" />
+    <meta
+      property="og:url"
+      content="https://u-t-kuroitigo.github.io/portfolio/works/sajikagen.html"
+    />
+    <meta
+      property="og:description"
+      content="ウエサカのポートフォリオサイトです。"
+    />
+    <meta property="og:image" content="../imgs/ogp.png" />
+    <meta name="description" content="ウエサカのポートフォリオサイトです。" />
+    <title>ウエサカ ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="../css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link
+      href="../css/style.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="../css/slider.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="shortcut icon" href="../imgs/favicon.ico" />
+    <link
+      rel="canonical"
+      href="https://u-t-kuroitigo.github.io/portfolio/works/sajikagen.html"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href="../">PORTFOLIO</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href="../#works">WORKS</a></li>
+              <li class="gnav-item"><a href="../#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="../#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="../#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /header -->
+
+      <main class="content">
+        <article class="article">
+          <div class="article-container">
+            <h2 class="article-title">さじ加減</h2>
+            <div class="article-body">
+              <div class="slider">
+                <div class="slides">
+                  <img
+                    src="../imgs/sajikagen/sajikagen_img_title.jpg"
+                    alt="sajikagen_img_title"
+                  />
+                  <img
+                    src="../imgs/sajikagen/sajikagen_img_appli_1.jpg"
+                    alt="sajikagen_img_appli_1"
+                  />
+                  <img
+                    src="../imgs/sajikagen/sajikagen_img_appli_2.jpg"
+                    alt="sajikagen_img_appli_2"
+                  />
+                  <img
+                    src="../imgs/sajikagen/sajikagen_img_appli_3.jpg"
+                    alt="sajikagen_img_appli_3"
+                  />
+                  <img
+                    src="../imgs/sajikagen/sajikagen_img_machine_1.jpg"
+                    alt="sajikagen_img_machine_1"
+                  />
+                  <img
+                    src="../imgs/sajikagen/sajikagen_img_machine_2.jpg"
+                    alt="sajikagen_img_machine_2"
+                  />
+                  <img
+                    src="../imgs/sajikagen/sajikagen_img_machine_3.jpg"
+                    alt="sajikagen_img_machine_3"
+                  />
+                  <img
+                    src="../imgs/sajikagen/sajikagen_img_system_1.jpg"
+                    alt="sajikagen_img_system_1"
+                  />
+                  <img
+                    src="../imgs/sajikagen/sajikagen_img_system_2.jpg"
+                    alt="sajikagen_img_system_2"
+                  />
+                </div>
+                <div class="navigation">
+                  <button class="prev" onclick="prevSlide()">❮</button>
+                  <button class="next" onclick="nextSlide()">❯</button>
+                </div>
+              </div>
+              <p style="font-weight: bold">
+                料理をするときにいちいち測るのめんどくさい<br class="sp-only" />
+                そんな悩める人々に
+              </p>
+              <h3>URL</h3>
+              <p>
+                <a
+                  href="https://x.com/ecc_IoT_23/status/1697563904061374967?s=20"
+                  target="_blank"
+                  rel="noopener"
+                  >https://x.com/ecc_IoT_23/status/1697563904061374967?s=20</a
+                >
+                <br />
+                <a
+                  href="https://drive.google.com/file/d/1vqJ1AA7IQvlTZ3O6m1lu5X7wCDH16NGu/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                  >https://drive.google.com/file/d/1vqJ1AA7IQvlTZ3O6m1lu5X7wCDH16NGu/view?usp=sharing</a
+                >
+              </p>
+              <h3>システム概要</h3>
+              <p>
+                料理を簡単にできるように、自動で調味料を正確な分量出してくれるお助けツール。<br />
+                スマホアプリからの操作やタッチパネルを使用した直接操作などが可能。
+              </p>
+              <h3>技術スタック</h3>
+              <p>
+                スマホアプリはFlutter、docker、Go、MySQLを使用。<br />
+                筐体はFusion360を用いて3Dプリンターにて一部作成。<br />
+                描画及びマイコン制御、スマホアプリとの通信はPythonを使用。
+              </p>
+              <h3>キャッチコピー</h3>
+              <p>さじ加減に注目目してください</p>
+              <h3>役割</h3>
+              <p>
+                Raspberry
+                Piとスマホアプリのソケット通信及びディスプレイへの描画処理を担当。<br />
+                ソケット通信はRaspberry
+                Pi側はPython、スマホアプリ側はFlutterにて製作していたためDartを用いて実装。<br />
+                描画処理はPythonのライブラリであるPySimpleGUIを用いて実装。
+              </p>
+              <h3>ターゲット</h3>
+              <p>料理をするときにいちいち測るのめんどくさいという人。</p>
+            </div>
+            <div class="home-link">
+              <a href="../#works">Works一覧へ</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">トップへ戻る</span>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">&copy;u-t-kuroitigo</div>
+      </footer>
+      <!-- /footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/slider.js"></script>
+  </body>
+</html>
