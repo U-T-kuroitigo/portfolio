@@ -68,16 +68,28 @@
               <div class="slider">
                 <div class="slides">
                   <img
-                    src="../imgs/no_image_yoko.jpg"
+                    src="../imgs/diet_theater/diet_theater_img_title.jpg"
                     alt="diet_theater_img_title"
                   />
+                  <img
+                    src="../imgs/diet_theater/diet_theater_img_terms_of_use.png"
+                    alt="diet_theater_img_terms_of_use"
+                  />
+                  <img
+                    src="../imgs/diet_theater/diet_theater_img_agenda.png"
+                    alt="diet_theater_img_agenda"
+                  />
+                  <img
+                    src="../imgs/diet_theater/diet_theater_img_speech.png"
+                    alt="diet_theater_img_speech"
+                  />
                 </div>
-                <!-- <div class="navigation">
+                <div class="navigation">
                   <button class="prev" onclick="prevSlide()">❮</button>
                   <button class="next" onclick="nextSlide()">❯</button>
-                </div> -->
+                </div>
               </div>
-              <p style="font-weight: bold">国会をより身近に感じよう</p>
+              <p style="font-weight: bold">長くて難しい国会に終止符を！</p>
               <h3>URL</h3>
               <p>
                 <a
@@ -97,7 +109,8 @@
               <h3>システム概要</h3>
               <p>
                 より多くの人に政治について知ってもらうために、国会の内容を分かりやすく掲載する。<br />
-                国会会議録検索システムの検索用APIを用いて国会の内容を持ってきて生成AIを通すことでより分かりやすい形で表示する。
+                国会会議録検索システムの検索用APIを用いて国会の内容を持ってきて生成AIを通すことでより分かりやすい形で表示する。<br />
+                国会での発言内容をわかりやすく端的に要約し、チャット形式でおしゃべりをしているように表示することで、政治に関心はあるが難しくて理解できない人や、選挙権を持つ前の人にも使ってもらえるようなサイトにした。
               </p>
               <h3>技術スタック</h3>
               <p>
@@ -105,11 +118,18 @@
                 APIサーバーではChatGPTを用いて文章の要約を行い、DBサーバーではMySQLを使用している。
               </p>
               <h3>キャッチコピー</h3>
-              <p></p>
+              <p>
+                長くて難しい国会に終止符を！<br />
+                チャット形式で分かりやすく要約！
+              </p>
               <h3>役割</h3>
               <p>
                 バックエンドを担当。DB設計及び実装。<br />
                 PythonのフレームワークであるFlaskでフロントエンドとDBをAPIを用いて接続させる。DBはMySQLを使用。
+              </p>
+              <h3>ターゲット</h3>
+              <p>
+                政治に関心はあるが難しくて理解できない人や、小学生や中学生などの選挙権を持つ前の人。
               </p>
             </div>
             <div class="home-link">
