@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ウエサカ ポートフォリオ" />
+    <meta
+      property="og:url"
+      content="https://u-t-kuroitigo.github.io/portfolio/works/raving.html"
+    />
+    <meta
+      property="og:description"
+      content="ウエサカのポートフォリオサイトです。"
+    />
+    <meta property="og:image" content="../imgs/ogp.png" />
+    <meta name="description" content="ウエサカのポートフォリオサイトです。" />
+    <title>ウエサカ ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="../css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link
+      href="../css/style.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="../css/slider.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="shortcut icon" href="../imgs/favicon.ico" />
+    <link
+      rel="canonical"
+      href="https://u-t-kuroitigo.github.io/portfolio/works/raving.html"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href="../">PORTFOLIO</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href="../#works">WORKS</a></li>
+              <li class="gnav-item"><a href="../#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="../#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="../#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /header -->
+
+      <main class="content">
+        <article class="article">
+          <div class="article-container">
+            <h2 class="article-title">Raving</h2>
+            <div class="article-body">
+              <div class="slider">
+                <div class="slides">
+                  <img
+                    src="../imgs/raving/raving_img_title.jpg"
+                    alt="raving_img_title"
+                  />
+                  <img
+                    src="../imgs/raving/raving_img_1.jpg"
+                    alt="raving_img_1"
+                  />
+                  <img
+                    src="../imgs/raving/raving_img_2.jpg"
+                    alt="raving_img_2"
+                  />
+                  <img
+                    src="../imgs/raving/raving_img_3.jpg"
+                    alt="raving_img_3"
+                  />
+                  <img
+                    src="../imgs/raving/raving_img_4.jpg"
+                    alt="raving_img_4"
+                  />
+                  <img
+                    src="../imgs/raving/raving_img_5.jpg"
+                    alt="raving_img_5"
+                  />
+                  <img
+                    src="../imgs/raving/raving_img_6.jpg"
+                    alt="raving_img_6"
+                  />
+                </div>
+                <div class="navigation">
+                  <button class="prev" onclick="prevSlide()">❮</button>
+                  <button class="next" onclick="nextSlide()">❯</button>
+                </div>
+              </div>
+              <p style="font-weight: bold">レクリエーションを円滑に!</p>
+              <h3>URL</h3>
+              <p>
+                <a
+                  href="https://github.com/team-Effective"
+                  target="_blank"
+                  rel="noopener"
+                  >https://github.com/team-Effective</a
+                >
+                <br />
+                <a
+                  href="https://drive.google.com/file/d/1tn_YF1JjIh84V_1sWeWHNoPomK5N7lPl/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                  >https://drive.google.com/file/d/1tn_YF1JjIh84V_1sWeWHNoPomK5N7lPl/view?usp=sharing</a
+                >
+                <br />
+                <a
+                  href="https://twitter.com/itigo_U_T/status/1768909873386016995"
+                  target="_blank"
+                  rel="noopener"
+                  >https://twitter.com/itigo_U_T/status/1768909873386016995</a
+                >
+                <br />
+                <a
+                  href="https://www.youtube.com/live/g4Kfsq8NvN8?si=EAoIK_FNSkZpfEZB&t=6373"
+                  target="_blank"
+                  rel="noopener"
+                  >https://www.youtube.com/live/g4Kfsq8NvN8?si=EAoIK_FNSkZpfEZB&t=6373</a
+                >
+              </p>
+              <h3>システム概要</h3>
+              <p>
+                レクリエーションなどのゲームを円滑に進めるためのアプリ。<br />
+                本来は別のシステムを想定して開発していたが、イベントへの影響などを考慮して現在の内容に落とし込んだ。
+              </p>
+              <h3>技術スタック</h3>
+              <p>
+                スマホアプリはFlutterを使いホスト側とゲスト側の2種類作成。<br />
+                DBサーバーはFastAPI(Python)を、DBにはMySQLを使用。 Fast
+                APIを使用し、ソケットサーバーを実装。ソケットサーバーを経由し、ゲストとホスト端末間の通信部分websocketで実装。<br />
+                腕輪にはM5StickCを使用している。
+              </p>
+              <h3>キャッチコピー</h3>
+              <p>よきゲームライフを!</p>
+              <h3>役割</h3>
+              <p>
+                DB設計及び実装。PythonのフレームワークであるFlaskでフロントエンドとDBをAPIを用いて接続させる。DBはMySQLを使用。
+              </p>
+              <h3>ターゲット</h3>
+              <p>
+                レクリエーションなどで複数の班に対して対応しきれないゲームマスター。
+              </p>
+            </div>
+            <div class="home-link">
+              <a href="../#works">Works一覧へ</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">トップへ戻る</span>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">&copy;u-t-kuroitigo</div>
+      </footer>
+      <!-- /footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/slider.js"></script>
+  </body>
+</html>
